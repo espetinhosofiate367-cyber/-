@@ -1,0 +1,278 @@
+{
+  "system_summary": {
+    "processed_frames": 30,
+    "successful_clusters": 26,
+    "success_rate": 86.66666666666667,
+    "average_processing_time": 0.000674128532409668,
+    "anomaly_alerts": 2,
+    "current_cluster": {
+      "label": 0,
+      "confidence": 0.6,
+      "method": "dbscan"
+    }
+  },
+  "cluster_history": [
+    {
+      "status": "success",
+      "frame_id": 4,
+      "cluster_label": 0,
+      "confidence": 0.6,
+      "method": "dbscan",
+      "processing_time": 0.0010268688201904297,
+      "is_anomaly": false
+    },
+    {
+      "status": "success",
+      "frame_id": 5,
+      "cluster_label": 0,
+      "confidence": 0.6,
+      "method": "dbscan",
+      "processing_time": 0.0009875297546386719,
+      "is_anomaly": false
+    },
+    {
+      "status": "success",
+      "frame_id": 6,
+      "cluster_label": 0,
+      "confidence": 0.6,
+      "method": "dbscan",
+      "processing_time": 0.001024484634399414,
+      "is_anomaly": false
+    },
+    {
+      "status": "success",
+      "frame_id": 7,
+      "cluster_label": 0,
+      "confidence": 0.6,
+      "method": "dbscan",
+      "processing_time": 0.0009920597076416016,
+      "is_anomaly": false
+    },
+    {
+      "status": "success",
+      "frame_id": 8,
+      "cluster_label": 0,
+      "confidence": 0.6,
+      "method": "dbscan",
+      "processing_time": 0.000997781753540039,
+      "is_anomaly": false
+    },
+    {
+      "status": "success",
+      "frame_id": 9,
+      "cluster_label": 0,
+      "confidence": 0.6,
+      "method": "dbscan",
+      "processing_time": 0.0011165142059326172,
+      "is_anomaly": false
+    },
+    {
+      "status": "success",
+      "frame_id": 10,
+      "cluster_label": 0,
+      "confidence": 0.6,
+      "method": "dbscan",
+      "processing_time": 0.0011827945709228516,
+      "is_anomaly": false
+    },
+    {
+      "status": "success",
+      "frame_id": 11,
+      "cluster_label": 0,
+      "confidence": 0.6,
+      "method": "dbscan",
+      "processing_time": 0.0009970664978027344,
+      "is_anomaly": false
+    },
+    {
+      "status": "success",
+      "frame_id": 12,
+      "cluster_label": 0,
+      "confidence": 0.6,
+      "method": "dbscan",
+      "processing_time": 0.0010144710540771484,
+      "is_anomaly": false
+    },
+    {
+      "status": "success",
+      "frame_id": 13,
+      "cluster_label": 0,
+      "confidence": 0.6,
+      "method": "dbscan",
+      "processing_time": 0.0009915828704833984,
+      "is_anomaly": false
+    },
+    {
+      "status": "success",
+      "frame_id": 14,
+      "cluster_label": 0,
+      "confidence": 0.6,
+      "method": "dbscan",
+      "processing_time": 0.0009949207305908203,
+      "is_anomaly": false
+    },
+    {
+      "status": "success",
+      "frame_id": 15,
+      "cluster_label": 0,
+      "confidence": 0.6,
+      "method": "dbscan",
+      "processing_time": 0.0009942054748535156,
+      "is_anomaly": true
+    },
+    {
+      "status": "success",
+      "frame_id": 16,
+      "cluster_label": 0,
+      "confidence": 0.6,
+      "method": "dbscan",
+      "processing_time": 0.0,
+      "is_anomaly": false
+    },
+    {
+      "status": "success",
+      "frame_id": 17,
+      "cluster_label": 0,
+      "confidence": 0.6,
+      "method": "dbscan",
+      "processing_time": 0.0,
+      "is_anomaly": false
+    },
+    {
+      "status": "success",
+      "frame_id": 18,
+      "cluster_label": 0,
+      "confidence": 0.6,
+      "method": "dbscan",
+      "processing_time": 0.0,
+      "is_anomaly": false
+    },
+    {
+      "status": "success",
+      "frame_id": 19,
+      "cluster_label": 0,
+      "confidence": 0.6,
+      "method": "dbscan",
+      "processing_time": 0.0,
+      "is_anomaly": false
+    },
+    {
+      "status": "success",
+      "frame_id": 20,
+      "cluster_label": 0,
+      "confidence": 0.6,
+      "method": "dbscan",
+      "processing_time": 0.0,
+      "is_anomaly": false
+    },
+    {
+      "status": "success",
+      "frame_id": 21,
+      "cluster_label": 0,
+      "confidence": 0.6,
+      "method": "dbscan",
+      "processing_time": 0.0,
+      "is_anomaly": false
+    },
+    {
+      "status": "success",
+      "frame_id": 22,
+      "cluster_label": 0,
+      "confidence": 0.6,
+      "method": "dbscan",
+      "processing_time": 0.001188516616821289,
+      "is_anomaly": false
+    },
+    {
+      "status": "success",
+      "frame_id": 23,
+      "cluster_label": 0,
+      "confidence": 0.6,
+      "method": "dbscan",
+      "processing_time": 0.0009963512420654297,
+      "is_anomaly": false
+    },
+    {
+      "status": "success",
+      "frame_id": 24,
+      "cluster_label": 0,
+      "confidence": 0.6,
+      "method": "dbscan",
+      "processing_time": 0.0005252361297607422,
+      "is_anomaly": false
+    },
+    {
+      "status": "success",
+      "frame_id": 25,
+      "cluster_label": 0,
+      "confidence": 0.6,
+      "method": "dbscan",
+      "processing_time": 0.0005004405975341797,
+      "is_anomaly": true
+    },
+    {
+      "status": "success",
+      "frame_id": 26,
+      "cluster_label": 0,
+      "confidence": 0.6,
+      "method": "dbscan",
+      "processing_time": 0.0004928112030029297,
+      "is_anomaly": false
+    },
+    {
+      "status": "success",
+      "frame_id": 27,
+      "cluster_label": 0,
+      "confidence": 0.6,
+      "method": "dbscan",
+      "processing_time": 0.0004928112030029297,
+      "is_anomaly": false
+    },
+    {
+      "status": "success",
+      "frame_id": 28,
+      "cluster_label": 0,
+      "confidence": 0.6,
+      "method": "dbscan",
+      "processing_time": 0.0005135536193847656,
+      "is_anomaly": false
+    },
+    {
+      "status": "success",
+      "frame_id": 29,
+      "cluster_label": 0,
+      "confidence": 0.6,
+      "method": "dbscan",
+      "processing_time": 0.0004973411560058594,
+      "is_anomaly": false
+    }
+  ],
+  "anomaly_alerts": [
+    {
+      "frame_id": 15,
+      "reason": "anomaly_detected",
+      "confidence": 0.6
+    },
+    {
+      "frame_id": 25,
+      "reason": "anomaly_detected",
+      "confidence": 0.6
+    }
+  ],
+  "differential_stats": {
+    "first_order": {
+      "mean": 17.67642457252661,
+      "std": 90.20315210849634,
+      "min": -88.27151955657814,
+      "max": 246.60082880244238,
+      "range": 334.8723483590205
+    },
+    "second_order": {
+      "mean": -10.26734392767063,
+      "std": 134.6617785714212,
+      "min": -308.5052784671708,
+      "max": 168.13856844189695
+    },
+    "data_length": 14
+  }
+}

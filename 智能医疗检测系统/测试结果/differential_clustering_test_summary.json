@@ -1,0 +1,22 @@
+{
+  "traditional": {
+    "avg_processing_time": 0.0022482077280680337,
+    "avg_detected_regions": 0.0,
+    "avg_precision": 0.0,
+    "avg_recall": 0.0,
+    "avg_f1_score": 0.0
+  },
+  "enhanced": {
+    "avg_processing_time": 0.3358265558878581,
+    "avg_detected_regions": 1.3333333333333333,
+    "avg_precision": 1.0,
+    "avg_recall": 0.2833333333333334,
+    "avg_f1_score": 0.434920634920635
+  },
+  "improvement": {
+    "precision_improvement": 1.0,
+    "recall_improvement": 0.2833333333333334,
+    "f1_improvement": 0.434920634920635,
+    "time_overhead": 148.37523418996784
+  }
+}

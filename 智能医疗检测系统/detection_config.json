@@ -1,0 +1,7 @@
+{
+  "gmm_components": 3,
+  "smoothing_sigma": 0.8,
+  "sensitivity_threshold": 0.7,
+  "min_nodule_area": 3,
+  "play_speed": 100
+}

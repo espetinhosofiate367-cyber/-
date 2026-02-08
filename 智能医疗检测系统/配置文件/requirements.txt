@@ -1,0 +1,28 @@
+# 动态逐帧检测系统依赖包列表
+# Enhanced Dynamic Frame-by-Frame Detection System Requirements
+
+# 核心科学计算库
+numpy>=1.21.0
+pandas>=1.3.0
+scipy>=1.7.0
+
+# 数据可视化
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# 机器学习
+scikit-learn>=1.0.0
+scikit-image>=0.18.0
+
+# 图像处理
+Pillow>=8.3.0
+
+# 进度条显示
+tqdm>=4.62.0
+
+# Excel文件支持
+openpyxl>=3.0.7
+
+# 可选依赖（用于性能优化）
+# numba>=0.54.0  # JIT编译加速
+# joblib>=1.0.0  # 并行处理

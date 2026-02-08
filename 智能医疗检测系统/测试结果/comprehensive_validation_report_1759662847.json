@@ -1,0 +1,107 @@
+{
+  "timestamp": "2025-10-05 19:14:07",
+  "validation_summary": {
+    "noise_robustness": {
+      "best_performance": "noise_10: 86.7%",
+      "worst_performance": "noise_10: 86.7%"
+    },
+    "anomaly_detection": {
+      "best_type": "spike: F1=0.435",
+      "average_f1_score": "0.435"
+    },
+    "stability": {
+      "overall_success_rate": "99.9%",
+      "processing_time": "0.0004s ± 0.0005s"
+    },
+    "real_time_performance": {
+      "compliance_rate": "100.0%",
+      "avg_processing_time": "0.0004s"
+    }
+  },
+  "detailed_results": {
+    "noise_robustness": {
+      "noise_10": {
+        "success_rate": 86.66666666666667,
+        "avg_confidence": 0.5999999999999999,
+        "avg_processing_time": 0.00041338602701822914,
+        "confidence_std": 1.1102230246251565e-16
+      },
+      "noise_30": {
+        "success_rate": 86.66666666666667,
+        "avg_confidence": 0.5999999999999999,
+        "avg_processing_time": 0.00040266513824462893,
+        "confidence_std": 1.1102230246251565e-16
+      },
+      "noise_50": {
+        "success_rate": 86.66666666666667,
+        "avg_confidence": 0.5999999999999999,
+        "avg_processing_time": 0.00039995511372884114,
+        "confidence_std": 1.1102230246251565e-16
+      },
+      "noise_100": {
+        "success_rate": 86.66666666666667,
+        "avg_confidence": 0.5999999999999999,
+        "avg_processing_time": 0.00037262439727783205,
+        "confidence_std": 1.1102230246251565e-16
+      },
+      "noise_200": {
+        "success_rate": 86.66666666666667,
+        "avg_confidence": 0.5999999999999999,
+        "avg_processing_time": 0.00046130021413167316,
+        "confidence_std": 1.1102230246251565e-16
+      }
+    },
+    "anomaly_detection": {
+      "spike": {
+        "precision": 0.2777777777777778,
+        "recall": 1.0,
+        "f1_score": 0.4347826086956522,
+        "accuracy": 0.2777777777777778,
+        "avg_confidence": 0.6000000000000001
+      },
+      "drop": {
+        "precision": 0.2777777777777778,
+        "recall": 1.0,
+        "f1_score": 0.4347826086956522,
+        "accuracy": 0.2777777777777778,
+        "avg_confidence": 0.6000000000000001
+      },
+      "oscillation": {
+        "precision": 0.2777777777777778,
+        "recall": 1.0,
+        "f1_score": 0.4347826086956522,
+        "accuracy": 0.2777777777777778,
+        "avg_confidence": 0.6000000000000001
+      },
+      "drift": {
+        "precision": 0.2777777777777778,
+        "recall": 1.0,
+        "f1_score": 0.4347826086956522,
+        "accuracy": 0.2777777777777778,
+        "avg_confidence": 0.6000000000000001
+      },
+      "noise_burst": {
+        "precision": 0.2777777777777778,
+        "recall": 1.0,
+        "f1_score": 0.4347826086956522,
+        "accuracy": 0.2777777777777778,
+        "avg_confidence": 0.6000000000000001
+      }
+    },
+    "stability": {
+      "total_frames": 200,
+      "overall_success_rate": 99.89528795811519,
+      "avg_processing_time": 0.0003678584098815918,
+      "processing_time_std": 0.00045465591949539556,
+      "success_rate_stability": 0.0,
+      "confidence_stability": 0.0,
+      "final_success_rate": 100.0
+    },
+    "real_time_performance": {
+      "target_frame_time": 0.03333333333333333,
+      "avg_processing_time": 0.0003991127014160156,
+      "max_processing_time": 0.001085519790649414,
+      "processing_time_std": 0.0004863759407767379,
+      "real_time_compliance": 100.0,
+      "avg_frame_delay": 0.0,
+      "max_frame_delay": 

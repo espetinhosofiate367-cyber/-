@@ -1,0 +1,254 @@
+{
+  "timestamp": "2025-10-05 19:12:37",
+  "test_summary": {
+    "简化版本": {
+      "success_rate": "0.0%",
+      "avg_processing_time": "0.0000s",
+      "avg_confidence": "0.000",
+      "anomaly_f1_score": "0.000"
+    },
+    "优化版本": {
+      "success_rate": "92.0%",
+      "avg_processing_time": "0.0005s",
+      "avg_confidence": "0.600",
+      "anomaly_f1_score": "0.357"
+    }
+  },
+  "detailed_results": {
+    "简化版本": {
+      "system_name": "简化版本",
+      "total_frames": 50,
+      "successful_frames": 0,
+      "processing_times": [],
+      "confidence_scores": [],
+      "anomaly_detection": {
+        "true_positives": 0,
+        "false_positives": 0,
+        "true_negatives": 0,
+        "false_negatives": 0
+      },
+      "errors": [
+        "帧 0: 'SimpleTemporalStressDifferential' object has no attribute 'get_current_differentials'",
+        "帧 1: 'SimpleTemporalStressDifferential' object has no attribute 'get_current_differentials'",
+        "帧 2: 'SimpleTemporalStressDifferential' object has no attribute 'get_current_differentials'",
+        "帧 3: 'SimpleTemporalStressDifferential' object has no attribute 'get_current_differentials'",
+        "帧 4: 'SimpleTemporalStressDifferential' object has no attribute 'get_current_differentials'",
+        "帧 5: 'SimpleTemporalStressDifferential' object has no attribute 'get_current_differentials'",
+        "帧 6: 'SimpleTemporalStressDifferential' object has no attribute 'get_current_differentials'",
+        "帧 7: 'SimpleTemporalStressDifferential' object has no attribute 'get_current_differentials'",
+        "帧 8: 'SimpleTemporalStressDifferential' object has no attribute 'get_current_differentials'",
+        "帧 9: 'SimpleTemporalStressDifferential' object has no attribute 'get_current_differentials'",
+        "帧 10: 'SimpleTemporalStressDifferential' object has no attribute 'get_current_differentials'",
+        "帧 11: 'SimpleTemporalStressDifferential' object has no attribute 'get_current_differentials'",
+        "帧 12: 'SimpleTemporalStressDifferential' object has no attribute 'get_current_differentials'",
+        "帧 13: 'SimpleTemporalStressDifferential' object has no attribute 'get_current_differentials'",
+        "帧 14: 'SimpleTemporalStressDifferential' object has no attribute 'get_current_differentials'",
+        "帧 15: 'SimpleTemporalStressDifferential' object has no attribute 'get_current_differentials'",
+        "帧 16: 'SimpleTemporalStressDifferential' object has no attribute 'get_current_differentials'",
+        "帧 17: 'SimpleTemporalStressDifferential' object has no attribute 'get_current_differentials'",
+        "帧 18: 'SimpleTemporalStressDifferential' object has no attribute 'get_current_differentials'",
+        "帧 19: 'SimpleTemporalStressDifferential' object has no attribute 'get_current_differentials'",
+        "帧 20: 'SimpleTemporalStressDifferential' object has no attribute 'get_current_differentials'",
+        "帧 21: 'SimpleTemporalStressDifferential' object has no attribute 'get_current_differentials'",
+        "帧 22: 'SimpleTemporalStressDifferential' object has no attribute 'get_current_differentials'",
+        "帧 23: 'SimpleTemporalStressDifferential' object has no attribute 'get_current_differentials'",
+        "帧 24: 'SimpleTemporalStressDifferential' object has no attribute 'get_current_differentials'",
+        "帧 25: 'SimpleTemporalStressDifferential' object has no attribute 'get_current_differentials'",
+        "帧 26: 'SimpleTemporalStressDifferential' object has no attribute 'get_current_differentials'",
+        "帧 27: 'SimpleTemporalStressDifferential' object has no attribute 'get_current_differentials'",
+        "帧 28: 'SimpleTemporalStressDifferential' object has no attribute 'get_current_differentials'",
+        "帧 29: 'SimpleTemporalStressDifferential' object has no attribute 'get_current_differentials'",
+        "帧 30: 'SimpleTemporalStressDifferential' object has no attribute 'get_current_differentials'",
+        "帧 31: 'SimpleTemporalStressDifferential' object has no attribute 'get_current_differentials'",
+        "帧 32: 'SimpleTemporalStressDifferential' object has no attribute 'get_current_differentials'",
+        "帧 33: 'SimpleTemporalStressDifferential' object has no attribute 'get_current_differentials'",
+        "帧 34: 'SimpleTemporalStressDifferential' object has no attribute 'get_current_differentials'",
+        "帧 35: 'SimpleTemporalStressDifferential' object has no attribute 'get_current_differentials'",
+        "帧 36: 'SimpleTemporalStressDifferential' object has no attribute 'get_current_differentials'",
+        "帧 37: 'SimpleTemporalStressDifferential' object has no attribute 'get_current_differentials'",
+        "帧 38: 'SimpleTemporalStressDifferential' object has no attribute 'get_current_differentials'",
+        "帧 39: 'SimpleTemporalStressDifferential' object has no attribute 'get_current_differentials'",
+        "帧 40: 'SimpleTemporalStressDifferential' object has no attribute 'get_current_differentials'",
+        "帧 41: 'SimpleTemporalStressDifferential' object has no attribute 'get_current_differentials'",
+        "帧 42: 'SimpleTemporalStressDifferential' object has no attribute 'get_current_differentials'",
+        "帧 43: 'SimpleTemporalStressDifferential' object has no attribute 'get_current_differentials'",
+        "帧 44: 'SimpleTemporalStressDifferential' object has no attribute 'get_current_differentials'",
+        "帧 45: 'SimpleTemporalStressDifferential' object has no attribute 'get_current_differentials'",
+        "帧 46: 'SimpleTemporalStressDifferential' object has no attribute 'get_current_differentials'",
+        "帧 47: 'SimpleTemporalStressDifferential' object has no attribute 'get_current_differentials'",
+        "帧 48: 'SimpleTemporalStressDifferential' object has no attribute 'get_current_differentials'",
+        "帧 49: 'SimpleTemporalStressDifferential' object has no attribute 'get_current_differentials'"
+      ],
+      "success_rate": 0.0,
+      "average_processing_time": 0,
+      "total_processing_time": 0.0010001659393310547,
+      "average_confidence": 0,
+      "confidence_std": 0,
+      "anomaly_metrics": {
+        "precision": 0,
+        "recall": 0,
+        "f1_score": 0
+      }
+    },
+    "优化版本": {
+      "system_name": "优化版本",
+      "total_frames": 50,
+      "successful_frames": 46,
+      "processing_times": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0009999275207519531,
+        0.0009992122650146484,
+        0.0,
+        0.0009999275207519531,
+        0.0010008811950683594,
+        0.0,
+        0.0010008811950683594,
+        0.0,
+        0.0010001659393310547,
+        0.0,
+        0.0009999275207519531,
+        0.0,
+        0.0009999275207519531,
+        0.0,
+        0.0,
+        0.0010077953338623047,
+        0.0,
+        0.0009922981262207031,
+        0.0,
+        0.001100301742553711,
+        0.0009274482727050781,
+        0.0005006790161132812,
+        0.0004994869232177734,
+        0.0,
+        0.0004999637603759766,
+        0.0004999637603759766,
+        0.0004999637603759766,
+        0.0004999637603759766,
+        0.0004999637603759766,
+        0.0004999637603759766,
+        0.0005002021789550781,
+        0.000499725341796875,
+        0.000499725341796875,
+        0.0005006790161132812,
+        0.0009992122650146484,
+        0.0005004405975341797,
+        0.0005004405975341797,
+        0.0004992485046386719,
+        0.0010025501251220703,
+        0.0004985332489013672,
+        0.0004994869232177734,
+        0.0005002021789550781,
+        0.0004999637603759766,
+        0.0,
+        0.0005028247833251953,
+        0.0004971027374267578
+      ],
+      "confidence_scores": [
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6
+      ],
+      "anomaly_detection": {
+        "true_positives": 10,
+        "false_positives": 36,
+        "true_negatives": 0,
+        "false_negatives": 0
+      },
+      "errors": [],
+      "success_rate": 92.0,
+      "average_processing_time": 0.000490579605102539,
+      "total_processing_time": 0.024528980255126953,
+      "average_confidence": 0.6000000000000002,
+      "confidence_std": 2.220446049250313e-16,
+      "anomaly_metrics": {
+        "precision": 0.21739130434782608,
+        "recall": 1.0,
+        "f1_score": 0.3571428571428571
+      }
+    }
+  },
+  "performance_ranking": {
+    "by_success_rate": [
+      [
+        "优化版本",
+        "92.0%"
+      ],
+      [
+        "简化版本",
+        "0.0%"
+      ]
+    ],
+    "by_processing_speed": [
+      [
+        "简化版本",
+        "0.0000s"
+      ],
+      [
+        "优化版本",
+        "0.0005s"
+      ]
+    ],
+    "by_confidence": [
+      [
+        "优化版本",
+        "0.600"
+      ],
+      [
+        "简化版本",
+        "0.000"
+      ]
+    ]
+  },
+  "recommendations": [
+    "最佳整体性能: 优化版本 (成功率: 92.0%)",
+    "最快处理速度: 简化版本 (平均时间: 0.0000s)",
+    "建议根据具体应用场景选择合适的系统版本",
+    "对于实时应用，优先考虑处理速度；对于精度要求高的应用，优先考虑成功率"
+  ]
+}

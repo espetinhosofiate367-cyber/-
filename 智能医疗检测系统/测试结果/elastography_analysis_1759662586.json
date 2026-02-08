@@ -1,0 +1,88 @@
+{
+  "system_info": {
+    "history_length": 30,
+    "feature_window": 15,
+    "clustering_methods": [
+      "kmeans",
+      "dbscan",
+      "gmm"
+    ],
+    "export_timestamp": 1759662586.3870547
+  },
+  "system_status": {
+    "system_stats": {
+      "total_frames": 30,
+      "successful_clustering": 1,
+      "average_processing_time": 0.0010485649108886719,
+      "current_cluster_state": {
+        "label": 0,
+        "confidence": 0.8,
+        "method": "kmeans"
+      },
+      "stability_trend": [],
+      "confidence_trend": [
+        0.8
+      ],
+      "anomaly_alerts": []
+    },
+    "adaptive_params": {
+      "confidence_threshold": 0.735,
+      "stability_threshold": 0.8,
+      "anomaly_threshold": 0.5,
+      "adaptation_rate": 0.1
+    },
+    "component_status": {
+      "differential_calculator": {
+        "history_length": 30,
+        "differential_points": 29,
+        "second_order_points": 28
+      },
+      "clusterer_performance": {
+        "kmeans": {
+          "average_confidence": 0.8,
+          "std_confidence": 0.0,
+          "min_confidence": 0.8,
+          "max_confidence": 0.8,
+          "sample_count": 1
+        },
+        "dbscan": {
+          "average_confidence": 0.7,
+          "std_confidence": 0.0,
+          "min_confidence": 0.7,
+          "max_confidence": 0.7,
+          "sample_count": 1
+        },
+        "gmm": {
+          "average_confidence": 0.75,
+          "std_confidence": 0.0,
+          "min_confidence": 0.75,
+          "max_confidence": 0.75,
+          "sample_count": 1
+        },
+        "best_method": "kmeans",
+        "best_score": 0.8
+      },
+      "pattern_analyzer": {
+        "pattern_window": 1,
+        "cluster_history": 1
+      }
+    },
+    "data_cache_status": {
+      "frame_history": 30,
+      "clustering_history": 1,
+      "feature_history": 1
+    }
+  },
+  "recent_results": [
+    {
+      "index": 0,
+      "cluster_label": 0,
+      "confidence": 0.8,
+      "method": "kmeans",
+      "processing_time": 0.0010485649108886719,
+      "anomaly_score": null,
+      "stability_score": null,
+      "feature_count": 26
+    }
+  ]
+}
